@@ -1,0 +1,21 @@
+.header{
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    display:flex;
+    align-items: center;
+  }
+
+  .header__image{
+    object-fit: contain;
+    padding:2%;
+    height: 40px;
+  }
+
+  .header__buttons{
+      margin-right: 20px;
+      margin-left: auto;
+  }
+
+  .header__buttons > .MuiButton-root{
+      margin-right: 20px;
+  }
